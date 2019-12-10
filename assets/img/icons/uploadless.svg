@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.969" height="37.969" viewBox="0 0 37.969 37.969">
+  <g id="Group_406" data-name="Group 406" transform="translate(-990.371 -1631.112)">
+    <circle id="Ellipse_103" data-name="Ellipse 103" cx="18.5" cy="18.5" r="18.5" transform="translate(990.855 1631.596)" fill="#fff"/>
+    <g id="Group_404" data-name="Group 404">
+      <g id="Group_403" data-name="Group 403">
+        <g id="Group_402" data-name="Group 402">
+          <path id="Path_553" data-name="Path 553" d="M1005.024,1657.483h-3.968a5.036,5.036,0,1,1,0-10.072h.107v-1.222a6.64,6.64,0,0,1,13.269-.231h2.835a5.438,5.438,0,0,1,5.426,5.422v.678a5.441,5.441,0,0,1-5.426,5.425H1014" fill="none" stroke="#a3a3a3" stroke-miterlimit="10" stroke-width="0.969"/>
+        </g>
+      </g>
+      <path id="Path_554" data-name="Path 554" d="M1007.2,1660.5v-5.644h-2.082a.467.467,0,0,1-.426-.319.711.711,0,0,1,.084-.723l4.209-4.207a.753.753,0,0,1,1.063,0l4.19,4.206a.7.7,0,0,1,.112.717.519.519,0,0,1-.512.325h-2.169v5.644" fill="none" stroke="#a3a3a3" stroke-miterlimit="10" stroke-width="0.969"/>
+    </g>
+    <g id="Group_405" data-name="Group 405">
+      <circle id="Ellipse_104" data-name="Ellipse 104" cx="18.5" cy="18.5" r="18.5" transform="translate(990.855 1631.596)" fill="none" stroke="#78c360" stroke-miterlimit="10" stroke-width="0.969"/>
+      <line id="Line_112" data-name="Line 112" y1="26.163" x2="26.163" transform="translate(996.274 1637.015)" fill="none" stroke="#78c360" stroke-miterlimit="10" stroke-width="0.969"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+dispatch:
+- url: "www.paperdaz.com/"
+  service: default
+
+- url: "www.paperdaz.com/*"
+  service: default
+
+- url: "api.paperdaz.com/"
+  service: api
+
+- url: "api.paperdaz.com/*"
+  service: api
+

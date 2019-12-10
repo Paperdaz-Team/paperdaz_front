@@ -1,0 +1,32 @@
+# default image
+image: node:10.16.2
+
+options:
+  max-time: 10
+pipelines:
+  default:
+    - step:
+        name: Build Application
+        caches:
+          - node
+        script:
+          - bash build.sh
+        artifacts:
+          - dist/** # change this to your build directory
+          - .nuxt/**
+    - step:
+          name: Deploy
+          deployment: staging
+          script:
+            - pipe: atlassian/google-app-engine-deploy:0.4.1
+              variables:
+                KEY_FILE: $KEY_FILE
+                PROJECT: 'paperdaz-223021'
+                PROMOTE: 'true'
+                STOP_PREVIOUS_VERSION: 'true'
+                # DEPLOYABLES: '<string>' # Optional
+                # VERSION: '<string>' # Optional.
+                # BUCKET: '<string>' # Optional.
+                # IMAGE: '<string>' # Optional.
+                # EXTRA_ARGS: '<string>' # Optional.
+                DEBUG: 'true'
